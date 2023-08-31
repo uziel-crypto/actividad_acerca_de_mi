@@ -1,0 +1,77 @@
+body {
+    background-color: #333;
+    font-family: Arial, sans-serif;
+   
+}
+
+header {
+    background-color: rgba(218, 17, 10, 0.849);
+    padding: 50px;
+    text-align: center;
+    color: #fff;
+    border-style: double;
+}
+
+div {
+    color: #fff;
+}
+
+
+#info-personal, #habilidades {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid rgba(218, 17, 10, 0.849);
+    background-color: transparent;
+}
+
+#info-personal h2, #habilidades h2 {
+    font-size: 24px;
+}
+
+#habilidades ul {
+    list-style-type: square;
+
+    
+}
+
+footer {
+    background-color: rgba(218, 17, 10, 0.849);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 15px;
+    position: absolute;
+    border-style:ridge;
+    bottom: 0;
+    width: 100%;  
+}
+
+@media  (max-widht: 600px) {
+    header, #info-personal, #habilidades {
+        padding: 10px;
+    }
+
+    h1, h2 {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 601px) and (max-widht: 1024px) {
+    header, #info-personal, #habilidades {
+        padding: 20px;
+    }
+
+    h2, h2 {
+        font-size: 22px;
+    }
+}
+
+@media  (min-width: 1025px) {
+    header, #info-personal, #habilidades {
+        padding: 30px;
+    }
+
+    h1, h2 {
+        font-size: 28px;
+    }
+}
+    
